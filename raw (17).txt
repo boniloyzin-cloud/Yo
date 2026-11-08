@@ -140,7 +140,7 @@ local function CreateMenu()
     local TextLogo = Instance.new("TextLabel")
     TextLogo.Size = UDim2.new(1, 0, 1, 0)
     TextLogo.BackgroundTransparency = 1
-    TextLogo.Text = "RTOR 16"
+    TextLogo.Text = "DAVI 16"
     TextLogo.Font = Enum.Font.Arcade 
     TextLogo.TextColor3 = Color3.fromRGB(255, 255, 255)
     TextLogo.TextSize = 200
