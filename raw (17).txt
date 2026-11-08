@@ -2,7 +2,7 @@
     ═══════════════════════════════════════════════════════════════
     🚀 DAVI v16.0 — SPACE LOGO EDITION (DUAL LANGUAGE: EN/VN)
     Key: DAVI_PREMIUM
-    Edit by wr4thezzz and deepseek and CERK
+    Edit by wr4thezzz and DAVI and NOTHING 
     (Đã thêm Tab Music tự động phát 9 bài & Fix trùng tên Link 1/2)
     ═══════════════════════════════════════════════════════════════
 ]]--
@@ -31,7 +31,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 40)
 title.Position = UDim2.new(0, 0, 0, 10)
 title.BackgroundTransparency = 1
-title.Text = "ENTER RTOR v16 KEY"
+title.Text = "ENTER DAVI v16 KEY"
 title.Font = Enum.Font.SourceSansBold
 title.TextSize = 20
 title.TextColor3 = Color3.fromRGB(150, 100, 255)
@@ -570,10 +570,10 @@ local function CreateMenu()
 
     -- ═══════════ TAB 7: CREDITS ═══════════
     local G13 = T.Info:AddLeftGroupbox("Creators")
-    G13:AddLabel("Edit by wr4thezzz")
-    G13:AddLabel("and deepseek")
+    G13:AddLabel("Edit by DAVI")
+    G13:AddLabel("and NOTHING")
     G13:AddLabel("and CERK")
-    G13:AddLabel("RTOR v16.0 / welcome") 
+    G13:AddLabel("DAVI v16.0 / welcome") 
 
     local G14 = T.Info:AddRightGroupbox("Information")
     G14:AddLabel("Version: Space Edition + Music")
@@ -584,17 +584,17 @@ local function CreateMenu()
     SaveManager:SetLibrary(Library)
     SaveManager:IgnoreThemeSettings()
     SaveManager:SetIgnoreIndexes({"MenuKeybind"})
-    ThemeManager:SetFolder("RTOR_v16")
-    SaveManager:SetFolder("RTOR_v16/Configs")
+    ThemeManager:SetFolder("DAVI_v16")
+    SaveManager:SetFolder("DAVI_v16/Configs")
     ThemeManager:ApplyToTab(T.Info)
     SaveManager:BuildConfigSection(T.Info)
 
     Library:Notify({
-        Title = "🚀 RTOR v16.0",
+        Title = "🚀 DAVI v16.0",
         Description = "Loaded successfully! Lang: " .. currentLang,
         Time = 5
     })
-    print("[RTOR v16.0] Loaded. Language: " .. currentLang)
+    print("[DAVI v16.0] Loaded. Language: " .. currentLang)
 end
 
 -- Xử lý sự kiện nhập Key
