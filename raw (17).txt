@@ -1,7 +1,7 @@
 --[[
     ═══════════════════════════════════════════════════════════════
-    🚀 RTOR v16.0 — SPACE LOGO EDITION (DUAL LANGUAGE: EN/VN)
-    Key: RTOR-PREMIUM
+    🚀 DAVI v16.0 — SPACE LOGO EDITION (DUAL LANGUAGE: EN/VN)
+    Key: DAVI_PREMIUM
     Edit by wr4thezzz and deepseek and CERK
     (Đã thêm Tab Music tự động phát 9 bài & Fix trùng tên Link 1/2)
     ═══════════════════════════════════════════════════════════════
@@ -10,9 +10,9 @@
 -- ============================================================
 -- HỆ THỐNG KEY
 -- ============================================================
-local correctKey = "RTOR-PREMIUM"
+local correctKey = "DAVI_PREMIUM"
 local keyGui = Instance.new("ScreenGui")
-keyGui.Name = "RTOR_KeySystem"
+keyGui.Name = "DAVI_KeySystem"
 keyGui.ResetOnSpawn = false
 keyGui.Parent = game:GetService("CoreGui")
 
